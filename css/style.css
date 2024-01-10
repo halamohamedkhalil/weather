@@ -1,0 +1,118 @@
+
+body {
+    color: #bfc1c8 !important;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+.navbar{
+    --bs-navbar-color:#bfc1c8;
+    --bs-navbar-hover-color:#009AD8;
+    --bs-navbar-active-color:#647075;
+    background-color: #1E202B;
+    --bs-navbar-padding-y:3rem;
+}
+.collapse ul li:hover a , .collapse ul li a.active{
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+ .collapse ul li a {
+    padding: 5px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    color: #fff !important ;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+}
+.navbar .logo img{width: 60px;}
+.navbar .logo h1{font-size: 15px; font-weight: bold;}
+.navbar .logo div span{font-size: 11px;}
+
+.header{
+    background-image: url(../images/banner.png);
+    background-size:cover;
+    height: 350px;
+    padding: 70px 0;
+    
+}
+.header .form input,.header .form button{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.header .form input{
+    padding: 20px 50px 20px 20px;
+    background-color: #1E202B;
+}
+.header .form button{
+    background-color: #009ad8;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    bottom: 5px;
+    padding: 0px 40px;
+    height: 3rem;
+}
+
+/* Weather-news */
+
+.weather-news{margin-top: -150px;}
+.weather-news .content-news{
+    background-color: #323544;
+} 
+.weather-news .header-news{
+    background-color: #2D303D;
+}
+.weather-news .content-news .location{
+    background-color: #323544;
+}
+.weather-news .content-news .custom, .weather-news .content1 .custom{
+    color: #009AD8;
+}
+.weather-news .content-news .degree .number {
+    font-size:5rem;
+}
+
+.weather-news .content-news .degree .news-icon img{
+    width: 90px !important
+}
+.weather-news .header1{
+    background-color: #222530;
+}
+.weather-news .content1{
+    background-color: #262936;
+}
+
+/* footer */
+footer{background-color: #323544;}
+footer form input,footer form button{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+footer form input{
+    padding: 20px 50px 20px 20px;
+    background-color: #1E202B;
+}
+footer form button{
+    background-color: #009ad8;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    padding: 0px 40px;
+    height: 3rem;
+}
+footer ul li{
+    background-color:#262936;
+    color: #009ad8;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+footer ul li:hover{
+    background-color: #009ad8;
+}
