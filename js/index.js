@@ -112,7 +112,7 @@ function handleSearch(weatherData) {
 }
 function Search() {
   var defaultVal = searchInput.getAttribute("data-defaultValue");
-  var search = searchInput.value ? searchInput.value : defaultVal ?? "cairo";
+  var search = searchInput.value ?? defaultVal ?? "cairo";
   getWeather(search).then((v) => {
     handleSearch(v);
   });
